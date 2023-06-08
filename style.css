@@ -1,0 +1,716 @@
+/* -------Universer Selector------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body{
+    overflow-x:hidden;
+}
+
+/* ------Body------ */
+
+body {
+    margin: 0;
+    font-family: var(--bs-font-sans-serif);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+
+/* ----------------Hero Section---------------- */
+
+.banner-top-hero {
+    background-image: linear-gradient(rgba(4, 9, 30, 0.8), rgba(4, 9, 30, 0.9)), url('WIN_20230414_15_08_14_Pro (2).jpg');
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-size: cover;
+}
+
+.gradient {
+    background-image: linear-gradient(266deg, #2beed7, #00a0ae);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero-section {
+    text-align: center;
+    width: 100%;
+    padding-top: 5%;
+}
+
+.hero-section .title-head h1 {
+    font-size: 50px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.hero-section .title-head p {
+    color: #fff;
+    margin: 2%;
+    word-spacing: 2px;
+    font-weight: 500;
+}
+
+.hero-section .title-head .hero-btn button {
+    width: 80%;
+    padding: 2%;
+    scale: 93%;
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border-radius: 50px;
+    font-size: 17px;
+    background-image: linear-gradient(135deg, #3df5e1, #00dcf9);
+    border: none;
+}
+
+.hero-section .title-head .hero-btn button:hover {
+    scale: 100%;
+    background-image: linear-gradient(135deg, #16ccb7, #00dcf9);
+}
+
+.hero-section .title-head h4 {
+    color: #fff;
+    margin: 1%;
+    letter-spacing: 2px;
+}
+
+/* ----------------Instructor of owner---------------- */
+
+.instructed .main .image-col {
+    width: 30%;
+}
+
+.instuctor-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.instructed {
+    width: 95%;
+    margin-bottom: 10%;
+    margin-top: 2%;
+}
+
+.instructed .main {
+    background-color: #1a2427;
+    overflow: hidden;
+    padding: 3%;
+    border-radius: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.instructed .main .image-col img {
+    width: 100%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    transition: all 0.1s linear;
+    height: auto;
+}
+
+.instructed .main .image-col img:hover {
+    border-top-left-radius: 50%;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+
+.instructed .main .details-col h4 {
+    background-image: linear-gradient(266deg, #2beed7, #86e8f0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 19px;
+    margin: 2%;
+}
+
+.instructed .main .details-col h2 {
+    font-size: 35px;
+    color: #fff;
+    margin: 2%;
+}
+
+.instructed .main .details-col p {
+    color: #fff;
+    opacity: 0.5;
+    font-size: 17px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    margin: 2%;
+}
+
+/* ----------------Program for---------------- */
+
+.program-box {
+    background: #e8f1f3;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.program-box .program {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.program-box .program .common-pro {
+    display: flex;
+    padding: 1%;
+    background: #fff;
+    width: 50%;
+    justify-content: left;
+    align-items: center;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.1 linear;
+    margin: 1%;
+    transition: transform 0.2s;
+}
+
+.program-box .program .common-pro:hover {
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+
+.program-box .program .common-pro i {
+    margin-right: 5%;
+    background: red;
+    padding: 3%;
+    font-size: 20px;
+    border-radius: 50%;
+    background: #e8f1f3;
+}
+
+
+.program-box .program .common-pro p {
+    font-size: 20px;
+}
+
+.program-box .header-program h1 {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 5%;
+    color: #333;
+}
+
+
+.program-btn button {
+    width: 80%;
+    padding: 2%;
+    scale: 93%;
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border-radius: 50px;
+    font-size: 17px;
+    background-image: linear-gradient(135deg, #3df5e1, #00dcf9);
+    border: none;
+    margin-top: 2%;
+}
+
+.program-btn button:hover {
+    scale: 100%;
+    background-image: linear-gradient(135deg, #16ccb7, #00dcf9);
+}
+
+/* ----------------Learn---------------- */
+
+.learn {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: #deebed;
+}
+
+.heading {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 3%;
+    color: #333;
+}
+
+.fix-width {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px 5px;
+}
+
+.learn-box {
+    width: 95%;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 50px;
+    transition: all 0.1s linear;
+}
+
+.flex:hover {
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.learn .learn-box.flex {
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+}
+
+.gradient {
+    -webkit-font-smoothing: antialiased;
+    display: var(--fa-display, inline-block);
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-rendering: auto;
+    margin-left: 1%;
+    margin-right: 1.5%;
+}
+
+.flex p {
+    font-size: 20px;
+}
+
+/* -----bonus------ */
+
+.bonus {
+    background: #151e1f;
+    color: #fff;
+}
+
+.bonus .bonus-Title {
+    text-align: center;
+    font-size: 22px;
+    padding-top: 4%;
+}
+
+.bonus .bonus-Title .to-money {
+    font-size: 60px;
+    color: #16c7c3;
+}
+
+.bonus .bonus-head {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.bonus .bonus-head .details-col {
+    background-image: url('background-bonus.svg');
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5%;
+    width: 30%;
+    height: 200px;
+}
+
+.counter {
+    padding: 2%;
+}
+
+.bonus .flex-width-counter {
+    text-align: center;
+    font-size: 20px;
+    border: 1px dashed #00a0ae;
+    ;
+    padding: 2%;
+    border-radius: 10px;
+}
+
+.bonus .flex-width-counter button {
+    width: 80%;
+    padding: 2%;
+    scale: 93%;
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border-radius: 50px;
+    font-size: 17px;
+    background-image: linear-gradient(135deg, #3df5e1, #00dcf9);
+    border: none;
+}
+
+.bonus .flex-width-counter button:hover {
+    scale: 100%;
+    background-image: linear-gradient(135deg, #16ccb7, #00dcf9);
+}
+
+.profits .header-title {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 7%;
+}
+
+.profits-box-main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.profits-box-main .profits-box {
+    text-align: center;
+    background: #1a2526;
+    padding: 2.5%;
+    width: 25%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 18px;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+.profits-box-main .profits-box:hover {
+    transform: rotate(3deg);
+    transition: transform 0.2s;
+}
+
+.profits-box-main .profits-box h1 {
+    font-size: 45px;
+    background-image: linear-gradient(266deg, #2beed7, #86e8f0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* ------------ Meet your trainer ----------- */
+
+.trains-main-container {
+    background-color: #fff;
+    padding: 4%;
+    background-color: #e8f1f3;
+}
+
+.trains-main-container .title-head {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 3%;
+}
+
+.trains-main-container .main-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.trains-main-container .main-flex .trainer-img img {
+    max-width: 400px;
+    width: 400px;
+    border-top-left-radius: 0%;
+    border-bottom-right-radius: 10%;
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+    transition: all 0.3s;
+}
+
+.trains-main-container .main-flex .trainer-img img:hover {
+    border-top-left-radius: 10%;
+}
+
+.trains-main-container .main-flex .trainer-details {
+    max-width: 650px;
+}
+
+.trains-main-container .main-flex .trainer-details h1 {
+    background-image: linear-gradient(266deg, #2beed7, #29b6c2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 45px;
+    margin: 2% 0;
+}
+
+.trains-main-container .main-flex .trainer-details p {
+    color: #000;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+/* ----------- Frequantly Asked Questions --------------- */
+
+.faqs1-container {
+    padding: 5%;
+}
+
+.faqs {
+    background: #deebed;
+    color: #000;
+}
+
+.faq {
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.4rem;
+    height: fit-content;
+    background: #fff;
+    transition: transform 0.3s;
+    width:100%;
+    margin-top:20px;
+    border-radius:20px;
+    cursor:pointer;
+}
+
+.faq h4 {
+    font-size: 1rem;
+    line-height: 2.2;
+    font-size:18px;
+}
+
+.faq i{
+    font-size:25px;
+}
+
+.faq_icon {
+    align-self: flex-start;
+    font-size: .1.2rem;
+    cursor: pointer;
+}
+
+.faq p {
+    margin-top: 0.8rem;
+    display: none;
+}
+
+.faq.open p {
+    display: block;
+}
+
+.faqs-title h1 {
+    margin-bottom: 5%;
+    font-size:30px;
+    letter-spacing:2px;
+    text-align: center;
+}
+
+
+
+/* ----- Footer Section------ */
+
+.footer-main-container{
+    padding:2%;
+    background-image:linear-gradient(#444, #333);
+}
+
+.footer-main-container .footer-flex-main{
+    text-align: center;
+}
+
+.footer-main-container .footer-flex-main .copyright{
+    color:#fff;
+}
+
+.footer-main-container .footer-flex-main .copyright p{
+    margin-bottom:1%;
+    font-size:18px;
+}
+
+.footer-main-container .footer-flex-main .copyright copy{
+    margin-bottom:1%;
+    font-size:18px;
+    color:#fff;
+}
+
+.footer-main-container .footer-flex-main .copyright copy:hover{
+    color:#888;
+}
+
+/* ---- Media Query for hero-image ---- */
+
+@media (max-width:1000px) {
+    .instructed .main .image-col img {
+        height: 200px;
+    }
+}
+
+@media (max-width:800px) {
+    .instructed .main .image-col img {
+        height: 150px;
+    }
+
+    .profits-box-main {
+        flex-direction: column;
+    }
+
+    .profits-box-main .profits-box {
+        width: 90%;
+    }
+}
+
+@media (max-width:690px) {
+    .instructed .main .image-col img {
+        height: auto;
+    }
+}
+
+/* ---- Media Query for fonts size ---- */
+
+@media (max-width:700px) {
+    .program-box .header-program h1 {
+        font-size: 25px;
+    }
+
+    .heading {
+        font-size: 25px;
+        letter-spacing: -1px;
+    }
+
+    .flex p {
+        font-size: 15px;
+    }
+
+    .hero-section .title-head h1 {
+        font-size: 30px;
+        letter-spacing: -1.5px;
+    }
+
+    .instructed .main .details-col h2 {
+        font-size: 20px;
+    }
+
+    .instructed .main .details-col p {
+        font-size: 15px;
+        letter-spacing: 0;
+    }
+
+    .instructed .main .details-col h4 {
+        margin-bottom: 0;
+    }
+
+    .hero-section .title-head .hero-btn button {
+        letter-spacing: 0px;
+    }
+
+    .instructed .main .details-col h2 {
+        margin-top: 0;
+    }
+
+    .program-btn button {
+        letter-spacing: 1px;
+    }
+
+    .bonus .flex-width-counter {
+        font-size: 15px;
+    }
+
+    .profits .header-title {
+        font-size: 15px;
+    }
+}
+
+/* -----Media Query for Responsiveness----- */
+
+@media (max-width:690px) {
+    .program-box .program {
+        flex-direction: column;
+    }
+
+    .program-box .program .common-pro {
+        width: 100%;
+    }
+
+    .bonus .bonus-head .details-col {
+        overflow: hidden;
+        padding: 15%;
+    }
+}
+
+/* -----Media Query for bonus-section----- */
+@media (max-width:850px) {
+    .bonus .bonus-head .details-col {
+        width: 350px;
+        height: 200px;
+    }
+}
+
+@media (max-width:500px) {
+    .instructed .main .image-col {
+        width: 60%;
+    }
+
+    .instructed .main {
+        flex-direction: column;
+    }
+
+    .bonus .bonus-Title {
+        font-size: 18px;
+    }
+
+    .bonus .bonus-Title .to-money {
+        font-size: 50px;
+    }
+
+    .profits-box-main .profits-box h1 {
+        font-size: 30px;
+    }
+
+    .trains-main-container .title-head {
+        font-size: 20px;
+    }
+}
+
+@media (max-width:1160px) {
+    .trains-main-container .main-flex .trainer-img img {
+        max-width: 350px;
+        width: 100%;
+    }
+
+    .trains-main-container .main-flex .trainer-details {
+        max-width: 550px;
+    }
+
+    @media (max-width:990px) {
+        /* .trains-main-container .main-flex .trainer-details{
+            max-width:500px;
+        } */
+    }
+
+    @media (max-width:975px) {
+        .trains-main-container .main-flex .trainer-img img {
+            max-width: 500px;
+            width: 100%;
+        }
+    }
+}
+
+
+@media (max-width:980px) {
+    .trains-main-container .main-flex .trainer-details {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .trains-main-container .main-flex .trainer-img {
+        width: 100%;
+        text-align: center;
+    }
+}
